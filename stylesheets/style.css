@@ -1,0 +1,150 @@
+body{
+  font-size: 0.8em;
+  font-family: "Bookman Old Style","Bookman Antique","Georgia", "Courier New";
+  /*background-color: #ffd;*/
+  /*background-image: url(page_pics/SheratonKampalaHotel-Citynightview.jpg); */
+  color: rgb(0, 71, 133);
+}
+
+header, nav, section, article, footer{
+	border: 2px solid black;
+	padding: 8px;
+	margin: 5px;
+	display: block;
+  border-radius: 5px;
+}
+header{
+  background-image: url("page_pics/SheratonKampalaHotel-Citynightview2.jpg");
+  background-repeat: no-repeat;
+}
+
+h3{
+  font-family: "Georgia";
+}
+
+nav ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800px;
+  padding: 15px 30px;
+  text-decoration: none;
+  /*color: black;*/
+   }
+   nav a:hover, nav a:active, nav .active a :link, nav .active a:visited{
+   	background: rgb(0, 71, 133);
+  	color: #66FF66;
+   	border-radius: 100px;
+
+   }
+   #leftWards {
+   float: right;
+   	padding: 8px;
+   	margin: 13px 90px 0px 0px;
+    border-radius: 100px;
+    background: rgb(153, 153, 255);
+   }
+   
+   fieldset{
+     float: left;
+     width: 30%;
+   }
+
+header, footer{
+	/*background-color: #444;*/
+	/*color: white;*/
+	text-align: center;
+}
+
+section{
+ min-height: 580px;
+}
+#rows{
+  -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid;
+    column-rule-style: solid;
+
+}
+#sidebar{
+  background-color: #99FFCC;
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  width: 300px;
+  height: 560px;
+  border-radius: 5px;
+}
+#sidebar2{
+  /*background-color:grey ;*/
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  width: 22%;
+  height: 60%;
+  border-radius: 5px;
+}
+#signup{
+  /*background-color: grey;*/
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  float: leftWards;
+  width: 200px;
+  height: 560px;
+  border-radius: 5px;
+}
+#login{
+  /*background-color: grey;*/
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  /*float: right;*/
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+#sidebarg{
+  /*background-color:grey ;*/
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  width: 23%;
+  height: 80%;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#sidebar2{
+  /*background-color: grey;*/
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+  position: relative;
+  /*margin-right: 100px;*/
+  width: 20%;
+  height: 50%;
+  border-radius: 10px;
+}
+img{
+  width: 100%;
+  border-radius: 3%;
+  
+}
